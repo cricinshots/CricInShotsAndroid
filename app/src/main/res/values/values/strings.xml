@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">CricInShots</string>
+    <string name="logo">logo</string>
+    <string name="choosetext">Choose an ongoing match:</string>
+    <string name="about_app"><![CDATA[<h2><b>About the app:</b></h2><p>About the app Pltch to continue Please choose an  Pue</p>]]></string>
+    <string name="passcheck"><![CDATA[<h3><b>A valid password must contain:</b></h3><p>&middot;One capital letter</p><p>&middot;One number</p><p>&middot;One symbol</p><p>&middot;And minimum 6 characters in total</p>]]></string>
+    <string name="cancel">Cancel</string>
+    <string name="website">Website</string>
+    <string name="submit">Submit</string>
+    <string name="icon_credit"><![CDATA[<div>Icons made by <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>  <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div><div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/iconnice" title="Iconnice">Iconnice</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div><div>Icons made by <a href="https://www.freepik.com/?__hstc=57440181.0c9829f492278ed03dcfbf78d4592468.1560790508109.1560790508109.1560790508109.1&__hssc=57440181.4.1560790508117&__hsfp=3590525640" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>icons8and materialio</div>]]></string>
+    <string name="dash">---</string>
+    <string name="tandccheck"><![CDATA[<h3><b>Terms & Conditions:</b></h3><p>&middot;One capital letter</p><p>&middot;One number</p><p>&middot;One symbol</p><p>&middot;And minimum 6 characters in total</p>]]></string>
+    <string name="about_bats"><![CDATA[<p><b>International:</b> India</p><b>IPL: Royal Challengers Banglore</b><p></p><p></p><p></p><p>Virat Kohli is an Indian cricketer who currently captains the India national team. A right-handed top-order batsman, Kohli is regarded as one of the best batsmen in the world. He plays for Royal Challengers Bangalore in the Indian Premier League, and has been the team\'s captain since 2013.</p><p>Kohli has been the recipient of many awards such as the Sir Garfield Sobers Trophy (ICC Cricketer of the Year) in 2017 and 2018; ICC Test Player of the Year 2018; ICC ODI Player of the Year in 2012, 2017 and 2018 and Wisden Leading Cricketer in the World in 2016, 2017 and 2018.[11] He was given the Arjuna Award in 2013, the Padma Shri under the sports category in 2017 and the Rajiv Gandhi Khel Ratna, the highest sporting honour in India, in 2018. In 2018, Time magazine named Kohli one of the 100 most influential people in the world.</p>]]></string>
+    <string name="title_activity_front_topnav">front_topnav</string>
+    <string name="tab_text_1">Stats</string>
+    <string name="tab_text_2">Commentary</string>
+    <string name="tab_text_3">News</string>
+    <string name="tab_text_4">Host</string>
+    <string name="tab_text_5">Watch</string>
+    <string name="tab_text_6">Settings</string>
+    <string name="tab_text_7">Teams</string>
+    <string name="onstriker">onstriker</string>
+    <string name="offstriker">offstriker</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loading">---</string>
+    <string name="filter_view_http">CricInShots</string>
+    <string name="filter_view_cric">CricInShots</string>
+    <string name="detailed_mode_off">Detailed Mode (off) </string>
+    <string name="detailed_mode_on">Detailed Mode (on) </string>
+    <string name="show_on">Show (on) </string>
+    <string name="show_off">Show (off) </string>
+    <string name="wicket_sf">W</string>
+    <string name="numtwo">2</string>
+    <string name="numone">1</string>
+    <string name="numfour">4</string>
+    <string name="numfive">5</string>
+    <string name="numsix">6</string>
+    <string name="numthree">3</string>
+    <string name="email_id">Email ID</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="new_user_register_here">New user? Register here</string>
+    <string name="terms_message">I agree to the terms and conditions and the privacy policy of CricInShots</string>
+    <string name="register">Register</string>
+    <string name="already_user">Already a user? Login here</string>
+    <string name="details">Details</string>
+    <string name="hide">Hide</string>
+    <string name="done">Done</string>
+    <string name="bowler">Bowler: </string>
+    <string name="batsman">Batsman: </string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="crr">CRR</string>
+    <string name="rrr">RRR</string>
+    <string name="b">B</string>
+    <string name="sr">SR</string>
+    <string name="setup_beta">Only select testers allowed beyond this point! Provide your passkey to enter!</string>
+    <string name="pass">Password</string>
+    <string name="enter">Enter</string>
+    <string name="warmup">Please be patient while we warm up</string>
+    <string name="verifying_tester">Verifying tester...</string>
+    <string name="verified">Successfully verified!</string>
+
+</resources>
