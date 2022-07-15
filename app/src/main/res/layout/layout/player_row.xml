@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_player"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="11dp"
+    android:layout_marginEnd="11dp"
+    android:elevation="13dp"
+    app:cardCornerRadius="10dp"
+    android:padding="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_gradient">
+
+    <RelativeLayout
+        android:id="@+id/rel_imgplayer"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/circle_border">
+
+        <ImageView
+            android:id="@+id/iv_player"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/circle2"
+            android:padding="3dp"
+            android:layout_margin="3dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:gravity="center"
+            />
+
+    </RelativeLayout>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/tv_pname"
+    android:textStyle="bold"
+    android:textSize="16sp"
+    android:padding="10dp"
+    android:textColor="@color/MyGray"
+    android:layout_toEndOf="@+id/rel_imgplayer"
+    android:layout_marginTop="7dp"
+    android:layout_marginStart="10dp"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/sv_plr"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:fillViewport="true"
+        android:layout_toEndOf="@+id/rel_imgplayer"
+        android:layout_below="@+id/tv_pname"
+        android:visibility="gone">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_psinfo"
+        android:textSize="14sp"
+        android:padding="8dp"
+        android:textColor="@color/MyGray"
+        android:layout_marginStart="10dp" />
+    </androidx.core.widget.NestedScrollView>
+<ImageButton
+    android:id="@+id/bt_vdeets"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_more"
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent"
+    android:layout_marginTop="7dp"
+    android:layout_marginEnd="7dp"/>
+    <ImageButton
+        android:id="@+id/bt_hidedeets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hide"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_minimize"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="7dp"/>
+
+
+    <LinearLayout
+        android:id="@+id/lin_prbot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sv_plr"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/followersBg"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+
+                <TextView
+                    android:id="@+id/tv_pbstyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/followingBg"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+
+                <TextView
+                    android:id="@+id/tv_pbbstyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+</com.google.android.material.card.MaterialCardView>

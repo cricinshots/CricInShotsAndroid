@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".welcome_act">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/SlideViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="515dp"
+            android:layout_alignParentTop="true">
+        </androidx.viewpager.widget.ViewPager>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:id="@+id/DotLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="2">
+    <Button
+        android:id="@+id/prevBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:textColor="@color/black"
+        android:visibility="invisible"
+        android:text="@string/back"/>
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/black"
+        android:background="@drawable/bg_gradient"
+        android:text="@string/next"/>
+</LinearLayout>
+
+</LinearLayout>
+
+</RelativeLayout>

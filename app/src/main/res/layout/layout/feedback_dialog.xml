@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/sendername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:padding="16dp"
+            android:background="@drawable/edittext_bg"/>
+        <EditText
+            android:id="@+id/senderquery"
+            android:layout_marginTop="15dp"
+            android:padding="16dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="top"
+            android:background="@drawable/edittext_bg"
+            android:hint="Your Feedback / Bug" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+            <Button
+                android:id="@+id/cancel_feed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel"
+
+                android:layout_gravity="center_vertical|start"
+                android:gravity="center_vertical|start"
+                android:background="@drawable/loginbutton_selector"/>
+            <Button
+                android:id="@+id/submit_feed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/submit"
+                android:layout_gravity="center_vertical|end"
+                android:gravity="center_vertical|end"
+                android:background="@drawable/loginbutton_selector"/>
+        </LinearLayout>
+    </LinearLayout>

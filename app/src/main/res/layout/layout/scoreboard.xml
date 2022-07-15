@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/iv_scoreBg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="17dp"
+        android:src="@drawable/score_bg"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_left_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/logo"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_right_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="229dp"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:id="@+id/tv_ipl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_alignTop="@id/iv_scoreBg"
+        android:layout_alignLeft="@id/iv_scoreBg"
+        android:layout_marginLeft="75dp"
+        android:textSize="9sp"
+        android:text="INDIAN PREMIERE LEAGUE"/>
+
+    <TextView
+        android:id="@+id/tv_vs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_ipl"
+        android:layout_alignLeft="@id/iv_scoreBg"
+        android:layout_marginLeft="117dp"
+        android:text="VS"
+        android:textColor="@color/black"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/tv_batting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_vs"
+        android:layout_alignLeft="@id/iv_scoreBg"
+        android:layout_marginLeft="97dp"
+        android:text="CSK BATTING"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_below="@+id/tv_batting"
+        android:layout_alignLeft="@id/iv_scoreBg"
+        android:layout_alignTop="@id/tv_batting"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="7dp"
+        android:text="134 - 4"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_below="@id/tv_score"
+        android:layout_alignLeft="@id/iv_scoreBg"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/online" />
+
+    <TextView
+        android:id="@+id/tv_bat_score1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_score"
+        android:layout_alignLeft="@id/iv_scoreBg"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="2dp"
+        android:text="MS DHONI - 4(3)"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="10sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_score"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/tv_bat_score1"
+        android:text="S. RAINA - 37(16)"
+        android:textSize="10sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_bat_score1"
+        android:layout_alignLeft="@id/iv_scoreBg"
+        android:layout_marginLeft="90dp"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:text="OVERS- "/>
+
+
+</RelativeLayout>
