@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_stats"
+        android:icon="@drawable/ic_statistics"
+        android:title="@string/tab_text_1" />
+    <item
+        android:id="@+id/navigation_teams"
+        android:icon="@drawable/ic_team"
+        android:title="@string/tab_text_7" />
+    <!--<item
+        android:id="@+id/navigation_host"
+        android:icon="@drawable/ic_host"
+        android:title="@string/tab_text_4" />
+    <item
+        android:id="@+id/navigation_watch"
+        android:icon="@drawable/ic_watch"
+        android:title="@string/tab_text_5" />-->
+
+    <item
+        android:id="@+id/navigation_trajectory"
+        android:icon="@drawable/ar"
+        android:title="Trajectory"  />
+    <item
+        android:id="@+id/navigation_ar"
+        android:icon="@drawable/chat"
+        android:title="Chat"  />
+    <item
+        android:id="@+id/navigation_news"
+        android:icon="@drawable/user2"
+        android:title="Profile"
+        />
+    <!--<item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/tab_text_6"
+        />-->
+</menu>
