@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "157642276829",
+    "firebase_url": "https://cricinshots.firebaseio.com",
+    "project_id": "cricinshots",
+    "storage_bucket": "cricinshots.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157642276829:android:0dcf178ffcc74d61714034",
+        "android_client_info": {
+          "package_name": "com.indevinfinity.cricinshots"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157642276829-t249o7p17e0pimm88muk8s1hso614e3d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.indevinfinity.cricinshots",
+            "certificate_hash": "894c1f3486f1f9c3937c3c99a86805ff62b449ce"
+          }
+        },
+        {
+          "client_id": "157642276829-lh9ggc0fr2mljdk63gd5on0012dgf3ph.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRlqIVry9uJuqpdU2F6vFqxOuAP_0kL-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "157642276829-lh9ggc0fr2mljdk63gd5on0012dgf3ph.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
